@@ -16,7 +16,7 @@ THRESHOLDS = {"CartPole-v1": 475.0, "Acrobot-v1": -100.0}
 BUDGET = 500_000          # environment steps per run (matches Wong et al. 2024)
 EPS_PER_EVAL = 3          # episodes per fitness evaluation (same for all optimisers)
 TEST_EPISODES = 20        # fresh episodes for the final test
-SEEDS = list(range(21))  # testing, use list(range(21)) for the full run for 20 seeds or list(range(6)) for 5 seeds
+SEEDS = list(range(21))  # use list(range(21)) for the full run for 20 seeds (0-20)  or list(range(6)) for 5 seeds
 
 
 # Observation normaliser (running mean / variance)
