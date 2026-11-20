@@ -1,0 +1,14 @@
+env,method,test_mean,test_std,solved_pct,median_steps_to_threshold,best_steps_to_threshold
+Acrobot-v1,dfo,-96.0,8.5,66.7,41050.0,11034.0
+Acrobot-v1,dfo_adaptive,-98.1,16.7,76.2,41050.0,11034.0
+Acrobot-v1,dfo_adaptive_reeval,-91.6,6.2,90.5,47624.0,12086.0
+Acrobot-v1,dfo_reeval,-91.9,11.7,85.7,47624.0,12086.0
+Acrobot-v1,random_policy,-498.4,3.5,0.0,,
+Acrobot-v1,random_search,-103.9,13.2,52.4,97039.0,4738.0
+Acrobot-v1,rule_based,-90.6,15.4,90.5,,
+Acrobot-v1,rule_based_flipped,-500.0,0.0,0.0,,
+CartPole-v1,dfo,473.6,59.2,76.2,10928.0,2224.0
+CartPole-v1,random_policy,21.4,2.0,0.0,,
+CartPole-v1,random_search,494.3,16.7,90.5,5755.0,1557.0
+CartPole-v1,rule_based,481.0,10.8,71.4,,
+CartPole-v1,rule_based_flipped,8.9,0.2,0.0,,

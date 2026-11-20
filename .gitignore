@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.idea/
+results_quick/
+models_quick/
+

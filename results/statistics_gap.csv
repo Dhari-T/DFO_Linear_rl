@@ -1,0 +1,6 @@
+env,reference,compared_with,ref_mean,other_mean,ref_solved,other_solved,A12,p,p_holm
+Acrobot-v1,DFO + both,DFO,10.1,20.6,19/21,14/21,0.85,0.0001,0.0003
+Acrobot-v1,DFO + both,DFO + adaptive dt,10.1,23.3,19/21,16/21,0.83,0.0002,0.0007
+Acrobot-v1,DFO + both,DFO + re-evaluation,10.1,10.8,19/21,18/21,0.47,0.782,0.782
+Acrobot-v1,DFO + both,Random search,10.1,14.4,19/21,11/21,0.6,0.2794,0.5588
+CartPole-v1,DFO,Random search,26.4,5.7,16/21,19/21,0.44,0.3544,0.3544
